@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* css */
+
+.login {
+  background-image: url(https://images.unsplash.com/photo-1502301103665-0b95cc738daf?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.react-calendar {
+  width: 100% !important;
+  background: rgb(255, 255, 255) !important;
+  color: rgb(9, 9, 9) !important;
+  border: none !important;
+  box-shadow: 0 0 2px rgb(108, 102, 102);
+  padding: 0 !important;
+  border-radius: 10px;
+}
+.react-calendar__tile {
+  padding: 24px 6.66px !important;
+  font-size: 24px;
+}
+.react-calendar__navigation button {
+  font-size: 28px !important;
+}
+.react-calendar__month-view__days__day--weekend {
+  /* color: rgb(170, 78, 29) !important; */
+  background: rgb(234, 226, 226) !important;
+}
+.react-calendar__tile--active {
+  background-color: orange !important;
+}
