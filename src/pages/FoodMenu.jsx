@@ -5,6 +5,10 @@ function FoodMenu() {
     <>
       <div>FoodMenu</div>
       <div>Idly Dosa Vada Sambar Chatni</div>
+      <h1>Veg Menu</h1>
+      <h3>Palav</h3>
+      <h3>Rise</h3>
+      <h3>Ragii Ball</h3>
     </>
   )
 }
