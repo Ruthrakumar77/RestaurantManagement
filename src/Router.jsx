@@ -38,11 +38,11 @@ const router = createBrowserRouter([
             },
             {
                 path: "employee/:id",//dynamic page
-                element: <EmployeeDetails/>
+                element: <EmployeeDetails />
             },
             {
                 path: "menu",
-                element: <FoodMenu/>
+                element: <FoodMenu />
             }
         ]
     },
@@ -52,4 +52,4 @@ const router = createBrowserRouter([
     }
 ])
 
-export default router
+export default router;
