@@ -8,7 +8,6 @@ import Revenue from "./pages/Revenue"
 import VegItemsList from "./pages/VegItemsList"
 import NonVegItems from "./pages/NonVegItems"
 import EmployeeDetails from "./components/EmployeeDetails"
-import FoodMenu from "./pages/FoodMenu";
 
 const router = createBrowserRouter([
     {
@@ -39,10 +38,6 @@ const router = createBrowserRouter([
             {
                 path: "employee/:id",//dynamic page
                 element: <EmployeeDetails />
-            },
-            {
-                path: "menu",
-                element: <FoodMenu />
             }
         ]
     },
@@ -52,4 +47,4 @@ const router = createBrowserRouter([
     }
 ])
 
-export default router;
+export default router
